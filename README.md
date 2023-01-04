@@ -40,7 +40,7 @@ contract Storage {
 ```
 3. 部署合约
 Remix IDE中`Deploy & run transactions`区域选择`External Http Provider`，选择有余额的账户，点击`Deploy`
-[部署](./deploy.png)
+![部署](./deploy.png)
 
 4. 生成字节码
 在Remix IDE编译页面找到`ABI`按钮，点击复制，在项目目录下创建`Storage.abi`文件，将复制的内容粘贴到文件中，运行以下命令得到字节码：
