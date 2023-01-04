@@ -20,6 +20,7 @@ miner.stop()
 eth.mining
 ```
 详细命令请参考[文档](https://geth.ethereum.org/docs/interacting-with-geth/javascript-console#interactive-use)
+
 2. 编写智能合约Storage.sol
 ```
 // SPDX-License-Identifier: GPL-3.0
@@ -38,6 +39,7 @@ contract Storage {
 	}
 }
 ```
+
 3. 部署合约
 Remix IDE中`Deploy & run transactions`区域选择`External Http Provider`，选择有余额的账户，点击`Deploy`
 ![部署](./deploy.png)
